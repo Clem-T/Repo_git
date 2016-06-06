@@ -78,6 +78,7 @@ WSGI_APPLICATION = 'Blacklist_app.wsgi.application'
 
 DATABASES = {
     'default': {
+        #use 'django.db.backends.mysql' on a not windows platform
         'ENGINE': 'mysql.connector.django',
         #Replace the following with your own DB settings
         'NAME': 'mydb',
