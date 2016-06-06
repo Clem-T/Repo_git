@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//Mail_blacklist/forms.py=utf-8
+encoding//Mail_blacklist/models.py=utf-8
+encoding//Mail_blacklist/templates/Mail_blacklist/Adding_mail.html=UTF-8
+encoding//Mail_blacklist/templates/Mail_blacklist/Adding_mail_list.html=UTF-8
+encoding//Mail_blacklist/templates/Mail_blacklist/Home.html=UTF-8
+encoding//Mail_blacklist/views.py=utf-8
+encoding//registration/forms.py=utf-8
+encoding//registration/templates/registration/login.html=UTF-8
+encoding//registration/templates/registration/register.html=UTF-8
+encoding//registration/views.py=utf-8

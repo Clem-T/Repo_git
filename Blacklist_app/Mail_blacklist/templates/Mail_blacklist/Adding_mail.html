@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	    <meta charset="utf-8" />
+	    <title>  Ajout d'emails à la blacklist </title>
+	</head>
+	
+	<body>
+		{% if message %}
+			<p>{{message}}</p>
+		{% endif %}
+		<form action="{% url "Mail_blacklist.views.addEmail" %}" method="post" >
+			{% csrf_token %}
+			{{form.as_p}}
+			<input type="submit" value="Valider" name="send" />
+		</form>
+		<p><a href="{% url "Mail_blacklist.views.home"%}">Retour</a></p>
+	</body>
+</html>
